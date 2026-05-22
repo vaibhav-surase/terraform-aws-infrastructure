@@ -52,12 +52,16 @@ Make sure you have:
 ## 🔐 AWS Configuration
 Configure AWS credentials:
 
-```bash
+
+
 aws configure
 
 AWS Access Key : AKIAQESXC3WMUCATXDCW
+
 AWS Secret : Key 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
+
 Region :  ap-south-1
+
 Output format: json
 
 How to Run
@@ -76,18 +80,27 @@ Type yes when prompted.
 
 After deployment, Terraform will output:
 
+
 EC2 Public IP
 Instance ID
+
+## 📸 Project Output Screenshot
+<img width="1364" height="717" alt="AWS" src="https://github.com/user-attachments/assets/636d93ad-87d2-466b-a591-985eacce9865" />
+
 🧹 Cleanup
 
 To destroy infrastructure:
 
 terraform destroy
+
 📌 Notes
 .terraform/ folder is ignored using .gitignore
 terraform.tfstate is not pushed to GitHub
 This project follows best practices for DevOps and IaC
+
 👨‍💻 Author
 
-Vaibhav Surase
+vaibhav Surase
+
 DevOps Engineer
+
